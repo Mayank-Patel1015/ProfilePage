@@ -1,0 +1,137 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+
+}
+
+/* Nav Bar */
+
+nav{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: white;
+  padding: 10px;
+}
+
+ul{
+  display: flex;
+  gap: 100px;
+  padding: 15px;
+  width: 800px;
+}
+
+li{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button{
+  margin: 10px 0px;
+  background-color: aqua;
+}
+
+/* Main */
+.main{
+  height: 100vw;
+  width: 100vw;
+  display: flex;
+}
+
+/* Left-col */
+.left-col{
+  flex: 2;
+  background-color: white;
+  padding-top: 3%;
+}
+
+/* Profile */
+.my-profile{
+  height: 450px;
+  width: 600px;
+  background-color: white;
+  margin-left: 350px;
+  border: 3px solid lightgray;
+}
+
+.blue-top{
+  height: 20%;
+  width: 100%;
+  background-color: rgb(42, 172, 172);
+}
+
+h2{
+  color: black;
+  padding: 5%;
+}
+
+h4{
+  padding: 5%;
+}
+
+.info{
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+hr{
+  width: 100%;
+  border: 0px  none;
+  padding: 5%;
+}
+
+img{
+  max-width: 5%;
+  max-height: 5%;
+  padding-right: 5%;
+}
+
+/* Education */
+
+.education{
+  height: 450px;
+  width: 600px;
+  background-color: white;
+  border: solid lightgray 3px;
+  margin-left: 350px;
+  margin-top: 50px;
+}
+
+.gray-top{
+  background-color: gray;
+  height: 15%;
+  width: 100%;
+}
+
+.education p {
+  padding: 5%;
+}
+
+/* Right-col */
+.right-col{
+  flex: 2;
+  background-color: red;
+  padding-top: 3%;
+  padding-left: 4%;
+}
+
+.connection-requests{
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  border: solid 3px lightgray;
+}
+
+.your-connections{
+  width: 400px;
+  height: 300px;
+}
