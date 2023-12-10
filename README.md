@@ -1,4 +1,4 @@
-# WebFun Exam
+# EasyBay
 ## A website to show HTML, CSS, and basic JavaScript skills
 
 <img width="1580" alt="Screenshot 2023-12-10 at 12 21 44 AM" src="https://github.com/Mayank-Patel1015/ProfilePage/assets/141281241/2b3f5cb5-a529-4da8-8abf-fda9f15dab39">
