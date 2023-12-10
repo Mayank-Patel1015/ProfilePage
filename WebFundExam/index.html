@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="d-flex a-center j-between">
+      <img class="logo" src="images-2/assets/leaf.png" alt="">
+      <h1>EasyBay</h1>
+      <input type="text" class="search" placeholder="Search for anything">
+      <button class="sign-in-btn">Sign In</button>
+      <img onclick="alertCart()" class="icon-l" src="images-2/assets/cart-dark.png" alt="">
+    </nav>
+
+    <div class="plant-selector">
+      <ul class="d-flex j-between plants">
+        <li>Aeonium</li>
+        <li>Andormischus</li>
+        <li>Agave</li>
+        <li>Aloe</li>
+        <li>Anacampseros</li>
+        <li>Aristaloe</li>
+        <li>More..</li>
+      </ul>
+      <hr>
+    </div>
+
+    <h2>Your Source for Serious Succulent Specialties</h2>
+
+    <div class="main-content d-flex width-75 margin-12-5">
+
+      <div class="discover d-flex flex3 bg-g margin20">
+        <!-- left column -->
+        <div class="flex2 "> 
+          <h3 class="t-center">Discover succ- ulent varieties one pot or rack
+            at a time!<br>Discover 
+              <img  class="arrow moveImg" src="images-2/assets/arrow-light.png" alt="">
+            </h3>
+        </div>
+        <img onmouseover="hoverIn(this)" onmouseout="hoverOut(this)" class="l-im flex2" src="images-2/assets/aeonium-s.jpg" alt="">
+      </div>
+      <!-- right column -->
+      <div class="other flex2">
+        <img class="m-im margin20" src="images-2/assets/aloe-m.jpg" alt="">
+        <div class="d-flex">
+          <h3 class="t-center bg-g w100">Soothing Aloe</h3>
+          <img class="arrow" src="images-2/assets/arrow-light.png" alt="">
+        </div>
+      </div>
+    </div>
+
+      <!-- row 2 start -->
+      <div class="width-75 margin-12-5 bg-lg removeStyle">
+        <ul class="j-between d-flex removeStyle">
+          <li><img class="s-img" src="images-2/assets/aeonium-s.jpg" alt=""></li>
+          <li><img class="s-img" src="images-2/assets/succulents-1.jpg" alt=""></li>
+          <li><img class="s-img" src="images-2/assets/cactus-s.jpg" alt=""></li>
+          <li><img class="s-img" src="images-2/assets/echeveria-s.jpg" alt=""></li>
+          <li><img class="s-img" src="images-2/assets/sedum-s.jpg" alt=""></li>
+          <li><img class="s-img" src="images-2/assets/sempervivum-s.jpg" alt=""></li>
+        </ul>
+        <ul class="j-between d-flex plant-names">
+          <li>Aeonium</li>
+          <li>Agave</li>
+          <li>Cactus</li>
+          <li>Echeverio</li>
+          <li>Sedum</li>
+          <li>Sempervivum</li>
+        </ul>
+      </div>
+
+      <div id="cookies" class="cookies width-75 margin-12-5 d-flex"> 
+        <img class="p20" src="images-2/assets/alert-dark.png" alt="">
+        <p>This site makes use of third-party cookies, by clicking "I accept"
+          you agree to the terms outlined in our cookie policy</p>
+        <button onclick="remove('#cookies')" class="accept-btn">I Accept</button>
+      </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
